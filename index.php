@@ -189,7 +189,7 @@ class File
         foreach ($files as $file) {
             $list[] = new Log($file);
         }
-        sort($list, 0);
+        rsort($list, 0);
         return $list;
     }
 
